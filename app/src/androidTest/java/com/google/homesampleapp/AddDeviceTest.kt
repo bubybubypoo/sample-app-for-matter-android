@@ -58,7 +58,7 @@ class AddDeviceTest {
   private val TEN_SECONDS = Duration.ofSeconds(10).toMillis()
   private val TWO_MINUTES = Duration.ofSeconds(120).toMillis()
   private val SCAN_QR_CODE_TITLE = By.text("Scan the QR code")
-  private val TRY_WITH_SETUP_CODE_BUTTON = By.text("Try with setup code")
+  private val TRY_WITH_SETUP_CODE_BUTTON = By.text("Set up without QR code")
   private val ENTER_SETUP_CODE_TITLE = By.textContains("Enter setup code")
   private val SETUP_CODE_TEXTBOX = UiSelector().className("android.widget.EditText").instance(0)
 
